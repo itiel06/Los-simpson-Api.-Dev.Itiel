@@ -1,0 +1,82 @@
+body {
+background-image: url(Copilot_20251005_173530.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.contenedor2 {
+margin: 50px auto;
+display: block;
+padding: 10px;
+border-radius: 10px  rgb(0, 148, 0);
+box-shadow: 10px 10px 10px 10px rgb(232, 248, 2);
+background-color: rgba(235, 233, 233, 0.795);
+width: 500px;
+height: 510px;
+border-top-right-radius: 100px;
+
+}
+
+
+.contenedor6 {
+
+margin: 50px auto;
+display: block;
+padding: 10px;
+border-radius: 10px  rgb(0, 148, 0);
+box-shadow: 10px 10px 10px 10px rgb(232, 248, 2);
+background-color: rgba(235, 233, 233, 0.795);
+width: 500px;
+height: 510px;
+border-top-right-radius: 100px;
+
+
+}
+
+.text {
+display: block;
+margin-left: 150px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: auto;
+}
+
+.id2 {
+display: block;
+margin-left: 140px;
+font-variant: small-caps;
+margin-top: -20px;
+}
+
+.ocupation {
+display: block;
+margin-left: 10px;
+font-family: 'Courier New', Courier, monospace;
+margin-top: -20px;
+}
+
+.gender {
+display: block;
+margin-left: 150px;
+margin-top: -20px;
+}
+
+.age2 {
+display: block;
+margin-left: 170px;
+margin-top: -20px;
+}
+
+.status1{
+display: block;
+margin-left: 220px;
+
+}
+
+.birthdate {
+display: block;
+margin-left: 100px;
+
+
+
+}

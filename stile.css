@@ -26,7 +26,7 @@ border-radius: 30px;
 box-shadow: 100px rgb(250, 246, 2);
 padding: 12px;
 border: 1px solid #ccc;
-
+margin-left: 1300px;
 }
 
 #bucarp{
@@ -111,6 +111,7 @@ border-radius: 8px;
 border: none;
 cursor: pointer;
 transition: transform 0.5s ease;
+margin-left: 1310px;
 }
 
 .boton-dinamico:hover {

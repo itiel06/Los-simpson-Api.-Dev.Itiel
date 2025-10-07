@@ -3,6 +3,7 @@ background-image: url(Copilot_20251005_173530.png);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+
 }
 
 .contenedor2 {
@@ -18,18 +19,39 @@ border-top-right-radius: 100px;
 
 }
 
-
-.contenedor6 {
-
-margin: 50px auto;
+#bucarp {
 display: block;
+margin-top: -700px;
+border-radius: 30px;
+box-shadow: 100px rgb(250, 246, 2);
+padding: 12px;
+border: 1px solid #ccc;
+
+}
+
+#bucarp{
+border: 2px solid #0ff;
+background: black;
+color: #0ff;
 padding: 10px;
-border-radius: 10px  rgb(0, 148, 0);
-box-shadow: 10px 10px 10px 10px rgb(232, 248, 2);
-background-color: rgba(235, 233, 233, 0.795);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+box-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+display: block;
+}
+
+
+
+#imag {
+display: block;
+margin-top: -800px;
+padding: 1px;
 width: 500px;
-height: 510px;
-border-top-right-radius: 100px;
+
+
+}
+
+.dato1 {
+margin-top: 100px;
 
 
 }
@@ -80,3 +102,18 @@ margin-left: 100px;
 
 
 }
+
+.boton-dinamico {
+background-color: #eeff00;
+color: rgb(3, 3, 3);
+padding: 10px 20px;
+border-radius: 8px;
+border: none;
+cursor: pointer;
+transition: transform 0.5s ease;
+}
+
+.boton-dinamico:hover {
+  transform: scale(1.1);
+}
+

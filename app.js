@@ -23,7 +23,7 @@ contenedor.innerHTML = `
 <h3 class='id2'>character number: ${id}</h3>
 <h2 class='ocupation'> Ocupation:${occupation}<h2>
 <p class='gender'> Gender: ${gender}</p>
-<p class='age2'>${age}</p>
+<p class='age2'>Age:${age}</p>
 <p class='birthdate'> Birthdate: ${birthdate}</p>
 <img src='https://cdn.thesimpsonsapi.com/${200}${portrait_path}'>
 <p class='status1'> ${status}<p>
@@ -37,13 +37,7 @@ contenedor3.innerHTML=`
 
 <div>
 `
-container5.innerhtml = `
-<div class='contenedor6'
-<p class='textode6'> los sinson </p>
-<p class='dato1'>${buscarp1.value}</p>
-<p class='dato2'>${button1.textContent}<p>
-</div>
-`
+
 
 
 }
@@ -60,6 +54,8 @@ body.append(button1)
 
 button1.textContent= 'HAY CARAMBA'
 
+button1.classList.add("boton-dinamico")
+
 button1.addEventListener('click', () => {
 
 theSimpsonsapi(buscarp1.value)
@@ -73,6 +69,12 @@ theSimpsonsapi(buscarp1.value)
 
 
 
-
+container5.innerhtml = `
+<div class='contenedor6'
+<p class='textode6'> los sinson </p>
+<p class='dato1'>${buscarp1.value}</p>
+<p class='dato2'>${button1.textContent}<p>
+</div>
+`
 
 

@@ -118,3 +118,12 @@ margin-left: 1310px;
   transform: scale(1.1);
 }
 
+.pg {
+background-color: rgba(241, 245, 8, 0.055);
+padding: 10px 10px;
+background-image: url(photofunky.gif);
+background-position: right 58px;
+background-size: 10vmin;
+
+}
+

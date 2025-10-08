@@ -44,3 +44,11 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
+.contenedorerr{
+background-color: rgb(255, 143, 143);
+color: red;
+font-weight: bold;
+padding: 5px 10px;
+border-radius: 5px ;
+}

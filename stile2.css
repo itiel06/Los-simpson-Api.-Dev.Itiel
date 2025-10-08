@@ -1,0 +1,46 @@
+body{
+background-image:url(los-simpsons-30-anos-de-una-familia-demasiado-normal-5.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+object-fit: cover;
+}
+
+#contenedor{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 5rem;
+margin: 5rem;
+}
+
+.contenedor2{
+background-color: rgb(255, 255, 255);
+border: 2px solid yellow;
+box-shadow: 10px 10px 10px yellow;
+padding: 10px 20px;
+border-bottom-left-radius: 100px;
+
+}
+
+.textoid{
+background-color: yellow;
+text-align: center;
+width: 20px;
+}
+
+.contenedor2 img {
+background-color: rgb(57, 159, 255);
+border-bottom-left-radius: 100px;
+padding: 1rem;
+
+}
+
+.contenedor2 h2 {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.contenedor2 p {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
